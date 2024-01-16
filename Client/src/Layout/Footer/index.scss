@@ -1,0 +1,32 @@
+#Footer{
+    min-height: 40vh;
+    background-color: #003072;
+    .FooterArea{
+        .FooterText{
+            position: relative;
+            top: 80px;
+            max-width: 200px;
+            margin-left: 500px;
+            color: white;
+            h1{
+                font-size: 40px;
+            }
+            h4{
+                font-size: 20px;
+            }
+            .PrafBtn{
+                color: white;
+                font-size: 18px;
+                width: 160px;
+                height: 50px;
+                border: 1px solid white;
+                background-color: transparent;
+&:hover{
+background-color:  #0d6efd;
+border: 1px solid  #0d6efd;
+transition: 0.3s;
+}
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.CardArea {
+    .CardBox {
+        .CardIcon {
+            gap: 20px;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .eye{
+                color:#0d6efd ;
+            }
+            .heart{
+                color: brown;
+            }
+        }
+        .CardContent{
+            img{
+                width: 100%;
+            }
+            h1{
+                font-size: 30px;
+            }
+            h3{
+                color: grey;
+                font-size: 22px;
+            }
+        }
+    }
+}

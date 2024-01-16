@@ -1,0 +1,14 @@
+.FormAdd{
+    flex-direction: column;
+    .form{
+       
+        flex-direction: column;
+    }
+    label{
+         font-size: 26px;
+    }
+    button{
+        background-color: aqua;
+font-size: 26px;
+    }
+}

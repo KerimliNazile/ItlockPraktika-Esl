@@ -1,0 +1,14 @@
+.wish {
+  background-color: #EBF0F8;
+}
+.wish li {
+  margin-left: 500px;
+  font-size: 24px;
+}
+.wish li .button {
+  border: 1px solid rgb(56, 191, 221);
+  background-color: transparent;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+}/*# sourceMappingURL=index.css.map */

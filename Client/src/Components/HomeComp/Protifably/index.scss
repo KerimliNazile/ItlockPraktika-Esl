@@ -1,0 +1,170 @@
+#Protifably {
+    min-height: 100vh;
+
+    .ProtifablyArea {
+        // width: 1320px;
+       flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+        .ProtifablyLeft {
+            max-width: 670px;
+            height: 510px;
+            background-color: #003072;
+
+            .LeftText {
+                margin-top: 60px;
+                margin-left: 60px;
+                max-width: 400px;
+                color: white;
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                .PrafBtn {
+                    color: white;
+                    font-size: 18px;
+                    width: 160px;
+                    height: 50px;
+                    border: 1px solid white;
+                    background-color: transparent;
+
+                    &:hover {
+                        background-color: #0d6efd;
+                        border: 1px solid #0d6efd;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+
+        .ProtifablyRight {
+            img {
+                min-width: 570px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:924px) {
+    #Protifably {
+        height: 80vh;
+
+        .ProtifablyArea {
+            // width: 1320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+
+            .ProtifablyLeft {
+                max-width: 370px;
+                height: 370px;
+                background-color: #003072;
+
+                .LeftText {
+                    margin-top: 60px;
+                    margin-left: 60px;
+                    max-width: 400px;
+                    color: white;
+
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 10px;
+                    }
+
+                    .PrafBtn {
+                        color: white;
+                        font-size: 18px;
+                        width: 160px;
+                        height: 50px;
+                        border: 1px solid white;
+                        background-color: transparent;
+
+                        &:hover {
+                            background-color: #0d6efd;
+                            border: 1px solid #0d6efd;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+
+            .ProtifablyRight {
+                img {
+                   min-width: 370px;
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width:660px){
+    #Protifably {
+        min-height: 100vh;
+    
+        .ProtifablyArea {
+            // width: 1320px;
+           flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+    
+            .ProtifablyLeft {
+                max-width: 670px;
+                height: 510px;
+                background-color: #003072;
+    
+                .LeftText {
+                    margin-top: 60px;
+                    margin-left: 60px;
+                    max-width: 400px;
+                    color: white;
+    
+                    h1 {
+                        font-size: 40px;
+                    }
+    
+                    p {
+                        font-size: 20px;
+                    }
+    
+                    .PrafBtn {
+                        color: white;
+                        font-size: 18px;
+                        width: 160px;
+                        height: 50px;
+                        border: 1px solid white;
+                        background-color: transparent;
+    
+                        &:hover {
+                            background-color: #0d6efd;
+                            border: 1px solid #0d6efd;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+    
+            .ProtifablyRight {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

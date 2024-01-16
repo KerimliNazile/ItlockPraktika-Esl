@@ -1,0 +1,35 @@
+#Header {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://preview.colorlib.com/theme/itlock/assets/img/hero/h1_hero1.jpg.webp");
+
+    .HeaderArea {
+        .HeaderText {
+           max-width: 560px;
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            color: white;
+            h1{
+                font-size: 60px;
+            }
+            p{
+                font-size: 26px;
+            }
+            .HeaderBtn{
+                color: white;
+                border: 1px solid white;
+                background-color: transparent;
+                font-size: 18px;
+                width: 200px;
+                height: 60px;
+                &:hover{
+                    border: 1px solid #0d6efd;
+                    background-color:#0d6efd ;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.Navbar {
+    height: 100px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    gap: 30px;
+
+    .ImgNav {
+
+    }
+
+    .MainNavbar {
+        .NavMain {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            list-style: none;
+
+            li a {
+                color: #003072;
+                font-size: 22px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media screen and (max-width:924px){
+    .Navbar {
+        height: 100px;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        gap: 30px;
+    
+        .ImgNav {
+    
+        }
+    
+        .MainNavbar {
+            .NavMain {
+                display: none;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                list-style: none;
+    
+                li a {
+                    color: #003072;
+                    font-size: 22px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

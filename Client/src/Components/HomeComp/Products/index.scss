@@ -1,0 +1,27 @@
+#Product {
+   min-height: 100vh;
+margin-top: 120px;
+    .ProductArea {
+
+        .ProductText {
+            max-width: 700px;
+            position: relative;
+            margin-left: 100px;
+            p{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 40px;
+            }
+        }
+
+        .CardAreas {
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+    }
+}

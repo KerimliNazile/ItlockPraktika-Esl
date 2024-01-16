@@ -1,0 +1,30 @@
+#Footer {
+  min-height: 40vh;
+  background-color: #003072;
+}
+#Footer .FooterArea .FooterText {
+  position: relative;
+  top: 80px;
+  max-width: 200px;
+  margin-left: 500px;
+  color: white;
+}
+#Footer .FooterArea .FooterText h1 {
+  font-size: 40px;
+}
+#Footer .FooterArea .FooterText h4 {
+  font-size: 20px;
+}
+#Footer .FooterArea .FooterText .PrafBtn {
+  color: white;
+  font-size: 18px;
+  width: 160px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+#Footer .FooterArea .FooterText .PrafBtn:hover {
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  transition: 0.3s;
+}/*# sourceMappingURL=index.css.map */
