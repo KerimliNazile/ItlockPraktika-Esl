@@ -11,6 +11,7 @@ import {Routes,Route} from 'react-router-dom'
 import Add from './Pages/AddPage'
 import Wishlist from './Pages/WishlistPage'
 import Detail from './Pages/DetailPage'
+import BasketPage from './Pages/Basket'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -26,6 +27,7 @@ function App() {
           <Route path={"/contact"} element={<Contact />}></Route>
           <Route path={"/add"} element={<Add />}></Route>
           <Route path={"/wishlist"} element={<Wishlist />}></Route>
+          <Route path={"/basket"} element={<BasketPage />}></Route>
           <Route path={'/:id'} element={<Detail />}></Route>
         </Route>
       </Routes>

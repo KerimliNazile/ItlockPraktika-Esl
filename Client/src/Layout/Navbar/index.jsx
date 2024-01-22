@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaHeart } from "react-icons/fa";
+import { HiMiniShoppingCart } from "react-icons/hi2";
 import './index.scss'
 const Navbar = () => {
   return (
@@ -19,6 +20,7 @@ const Navbar = () => {
                     <li><NavLink to={'/contact'}>Contact</NavLink></li>
                     <li><NavLink to={'/add'}>Add Page</NavLink></li>
                    <li><NavLink to={'/wishlist'}><FaHeart /></NavLink></li>
+                   <li><NavLink to={'/basket'}><HiMiniShoppingCart /></NavLink></li>
                 </ul>
             </div>
         </div>

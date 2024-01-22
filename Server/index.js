@@ -73,7 +73,7 @@ const url = process.env.URL.replace("<password>", process.env.PASSWORD)
 
 mongoose.connect(url)
     .then(() => console.log("Db connect"))
-    .catch(err => console.log("Db not connect"))
+    .catch(err => console.log("Db not connect"+err))
 app.listen(port, () => {
     console.log(`Example app listening on port }`)
 })
